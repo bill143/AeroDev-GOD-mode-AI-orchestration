@@ -32,7 +32,7 @@ Do not start writing Section 2 code until you've done steps 1–3 and I've said 
 ## Notes for you (Bill) — not part of the paste:
 
 - "Point it at your project folder" means: when the Code tab opens, it will ask which folder to work in. Choose:
-  `C:\dev\NEXUS_Relay`
+  `C:\dev\arena`
 - Before you start, make sure these are in that folder:
   - arena-build-specification-v1.md
   - CLAUDE.md
