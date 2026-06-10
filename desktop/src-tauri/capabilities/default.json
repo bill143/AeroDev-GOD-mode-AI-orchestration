@@ -1,0 +1,13 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Default capability: the main window and popped-out arena-* windows may open sibling OS windows for the multi-monitor pop-out (Spec 2.5).",
+  "windows": ["main", "arena-*"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-create",
+    "core:window:allow-set-focus",
+    "core:window:allow-close",
+    "core:webview:allow-create-webview-window"
+  ]
+}
