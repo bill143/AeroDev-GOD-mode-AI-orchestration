@@ -15,6 +15,13 @@ The product owner is a **construction executive, not a developer.** Do not ask h
 
 ## 1. Build order (do not deviate)
 
+> **AMENDED 2026-06-09 — the order of record is now the 5-phase sequence in `BUILD_PLAN.md`.**
+> The dependency *principle* below still holds, but the *sequence* is superseded:
+> Payments (§3) is resequenced to Phase 4 (Stripe test-mode only, off the critical path);
+> secrets-storage (§7.3) moves up into Phase 2 the moment real API keys exist; the
+> tenant-ownership tag is designed into the first Phase 2 tables. The seven entries below
+> remain the canonical map of *what* each spec section contains. See `BUILD_PLAN.md`.
+
 Build in dependency order. Do not start a section until the one before it is real, tested, and passing.
 
 1. **Orchestration engine & state model** (Spec §1) — the foundation; everything depends on the state machine, checkpointing, and deliberation protocol.
