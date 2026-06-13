@@ -1,0 +1,25 @@
+# Node / Next
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Generated app icon source (icons/ themselves are committed)
+appicon.png
+
+# Tauri (Rust) build artifacts
+src-tauri/target/
+src-tauri/gen/
+
+# Transient build logs
+*.log
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db

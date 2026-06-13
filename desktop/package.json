@@ -1,0 +1,36 @@
+{
+  "name": "arena-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Arena desktop shell (Tauri + Next.js) — a live window onto the cloud backend's single source of truth (Spec Section 2).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "icon": "node scripts/gen-appicon.mjs && tauri icon appicon.png",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "@tauri-apps/api": "2.11.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.11.2",
+    "@tailwindcss/postcss": "4.3.0",
+    "tailwindcss": "4.3.0",
+    "typescript": "6.0.3",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "vitest": "4.1.8",
+    "@vitejs/plugin-react": "^5",
+    "@testing-library/react": "^16",
+    "@testing-library/dom": "^10",
+    "jsdom": "^26"
+  }
+}
